@@ -1,8 +1,8 @@
 ﻿Console.WriteLine("========== CAIXA ELETRÔNICO ==========");
-Console.WriteLine("Coloque o valor inteiro a ser sacado: ");
 int[] notas = { 100, 50, 20, 10, 5, 2 };
 int[] saque = { 0, 0, 0, 0, 0, 0 };
 int valor;
+Console.WriteLine("Coloque o valor inteiro a ser sacado: ");
 while (true)
 {
     if (int.TryParse(Console.ReadLine(), out int v))
